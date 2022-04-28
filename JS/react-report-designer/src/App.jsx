@@ -13,7 +13,7 @@ class ReportDesigner extends React.Component {
     };
   }
   render() {
-    return (<div ref="designer" data-bind="dxReportDesigner: $data"></div>);
+    return (<div ref="designer" data-bind="dxReportDesigner: $data">zxczxc123</div>);
   }
   componentDidMount() {
     ko.applyBindings({
